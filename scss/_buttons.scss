@@ -1,0 +1,21 @@
+.menu-button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #777;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.home {
+  @extend .menu-button;
+  font-weight: bold;
+}
+.about {
+  @extend .menu-button;
+}
+.help {
+  @extend .menu-button;
+}
+button {
+  width: calc(200px / 2);
+}
